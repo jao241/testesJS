@@ -84,9 +84,28 @@
 // console.log(pessoa2 === pessoa)
 // pessoa2.nome = 'carol';
 
-let vetorNomes = ["João", "Carol", "Leandro", "Kátia"];
+let vetorNomes = ["João", "Carol", "Leandro", "Carol", "Kátia"];
 
-let nomeRemovido = vetorNomes.pop();
-console.log(nomeRemovido);
-console.log(vetorNomes);
+// vetorNomes.pop();
+// vetorNomes.pop();
+// vetorNomes.pop();
+// console.log(vetorNomes)
+// vetorNomes.push('Carlos', 'Maria', 'José');
+// vetorNomes.shift();
+// vetorNomes.shift();
+// vetorNomes.shift();
+// vetorNomes.unshift('Leandro', 'Kátia', 'Carol', 'João')
+// vetorNomes.pop()
+
+console.log(vetorNomes.indexOf("Carol"));
+console.log(vetorNomes.lastIndexOf("Carol"));
+
+// let nomeRemovido = vetorNomes.pop();
+// console.log(nomeRemovido);
+// console.log(vetorNomes);
 // vetorNomes.push('Kátia')
+
+// let nomeRemovido = vetorNomes.shift();
+// console.log(nomeRemovido);
+// vetorNomes.unshift('João');
+// console.log(vetorNomes)
