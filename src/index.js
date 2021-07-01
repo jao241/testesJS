@@ -97,9 +97,10 @@ let vetorNomes = ["João", "Carol", "Leandro", "Carol", "Kátia"];
 // vetorNomes.unshift('Leandro', 'Kátia', 'Carol', 'João')
 // vetorNomes.pop()
 
-console.log(vetorNomes.indexOf("Carol"));
-console.log(vetorNomes.lastIndexOf("Carol"));
+// console.log(vetorNomes.indexOf("Carol"));
+// console.log(vetorNomes.lastIndexOf("Carol"));
 
+// console.log(vetorNomes.slice(1,2))
 // let nomeRemovido = vetorNomes.pop();
 // console.log(nomeRemovido);
 // console.log(vetorNomes);
@@ -109,3 +110,51 @@ console.log(vetorNomes.lastIndexOf("Carol"));
 // console.log(nomeRemovido);
 // vetorNomes.unshift('João');
 // console.log(vetorNomes)
+let arrayNumeros = [1, 24, 1, 3, 5, 6, 7, 222, 6, 2, 1, 1, 3, 77, 1];
+// function qtdPessoa(x = 1) {
+//   let cont = 0;
+//   let posicoes = [];
+//   for (let i = 0; i < arrayNumeros.length; i++) {
+//     if (arrayNumeros[i] === x) {
+//       posicoes[cont] = i;
+//       cont++;
+//     }
+//   }
+//   return cont, posicoes;
+// }
+
+// console.log(qtdPessoa());
+
+// console.log(vetorNomes)
+// console.log(vetorNomes.slice(-3))
+// let cont = 0;
+// let lendoArray = arrayNumeros.forEach((num) => {
+//   if (num === 1) {
+//     cont++;
+//   }
+// });
+
+// console.log(cont);
+
+// console.log(arrayNumeros.includes(3))
+// console.log(arrayNumeros.includes(7))
+// console.log(arrayNumeros.includes(12))
+// console.log(arrayNumeros.includes(222))
+
+// console.log(arrayNumeros)
+// console.log(arrayNumeros.reverse())
+
+// let nomeCompleto = '\n               Joao vitor lima lago santos';
+// console.log(nomeCompleto)
+// console.log(nomeCompleto.trim())
+
+// let idPessoa = "1";
+// console.log(idPessoa.padStart(10, "0"));
+// console.log(idPessoa.padEnd(10, "0"));
+
+// let nome = "Joao Vitor Lima Lago Santos";
+// let nomeDividido = nome.split(" ");
+// console.log(nomeDividido);
+// console.log(nomeDividido.join(" "));
+
+console.log("oi \n".repeat(2));
